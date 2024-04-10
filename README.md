@@ -22,8 +22,7 @@
 
 
 
-References
-: 
+References: 
 
 Images:
 1. https://www.markdownguide.org/hacks/ to change image size
