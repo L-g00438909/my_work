@@ -8,6 +8,7 @@
 
 
 <img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" alt="penguins" width="600"/> _Artwork by Allison Hurst_
+***
 
 
 
