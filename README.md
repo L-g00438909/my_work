@@ -1,5 +1,5 @@
 # Higher Diploma in Science in Computing: Data Analytics
-## Module: Principles of Data Analytics
+### Module: Principles of Data Analytics
 
 ### Project: Analysis of the Palmer Penguins Dataset
 
