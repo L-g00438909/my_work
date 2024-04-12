@@ -1,3 +1,8 @@
+<img src="https://allisonhorst.github.io/palmerpenguins/logo.png" alt="penguins" width="200"/>
+
+
+
+
 # Higher Diploma in Science in Computing: Data Analytics
 ### Module: Principles of Data Analytics
 ***
@@ -14,9 +19,10 @@
 
 
 
-### Introduction
+### Introduction:
 ***
 
+Palmer Penguins dataset includes information on three species of penguins of the genus Pygoscelis. Adelie, Chinstrap and Gentoo. 
 
 
 
