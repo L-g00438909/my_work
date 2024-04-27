@@ -3,12 +3,11 @@
 
 
 
-# **Higher Diploma in Science: Computing-Data Analytics**
+# Higher Diploma in Science: Computing-Data Analytics 2024
 ### Module: Principles of Data Analytics
-### Author: Louise Ryan
-***
 
-### **Project: Analysis of the Palmer Penguins Dataset**
+
+# **Analysis of the Palmer Penguins Dataset**
 
 
 
