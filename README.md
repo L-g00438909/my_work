@@ -3,7 +3,7 @@
 
 
 
-# Higher Diploma in Science: Computing-Data Analytics 2024
+## Higher Diploma in Science: Computing-Data Analytics 2024
 ### Module: Principles of Data Analytics
 
 
