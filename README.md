@@ -74,10 +74,10 @@ Palmer Penguins is a dataset created by Dr. Kristen Gormen.
 
 ### Barcharts:
 <p float="left">
-        <img src="barchart mean body mass.png" width='250' height='250'>
-        <img src="barchart mean flipper length.png" width='250' height='250'>
-        <img src="barchart mean bill length.png" width='250' height='250'>
-        <img src="barchart mean bill depth.png" width='250' height='250'>
+        <img src="barchart mean body mass.png" width='400' height='400'>
+        <img src="barchart mean flipper length.png" width='400' height='400'>
+        <img src="barchart mean bill length.png" width='400' height='400'>
+        <img src="barchart mean bill depth.png" width='400' height='400'>
 </p>
 <br>
 
