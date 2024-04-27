@@ -20,10 +20,7 @@
 ### Introduction:
 
 
-The [Palmer Penguins dataset](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv) was founded by Dr. Kristen Gormen as part of her research of _[Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)_ in association with the Palmer Station Long Term Ecological Research Program. The dataset contains size measurements for three penguin species observed from 2007-2009 in the Palmer Archipelago, Antarctica. 
-
-
-
+The Palmer Penguins dataset contains data relating to size measurements for three species of penguins observed from 2007-2009 in the Palmer Archipelago, Antarctica, as part of research carried out by Dr. Kristen Gormen  '_[Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)'](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)_ in association with the Palmer Station Long Term Ecological Research Program. 
 ***
 ### **Method overview:** 
 
