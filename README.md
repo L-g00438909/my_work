@@ -36,7 +36,6 @@ The Palmer Penguins dataset contains data relating to size measurements for thre
 <table>
     <thead>
         <tr>
-            <th>Species:</th>
             <th>Adelie</th>
             <th>Chinstrap</th>
             <th>Gentoo</th>
@@ -44,14 +43,9 @@ The Palmer Penguins dataset contains data relating to size measurements for thre
     </thead>
     <tbody>
         <tr>
-            <td>Island:</td>
-            <td>Dream <br>Torgersen<br> Biscoe</td>
-            <td>Dream</td>
-            <td>Biscoe</td>
-        </tr>
+             </tr>
         <!-- Extra row for images -->
         <tr>
-            <td>Images:</td>
             <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg/1200px-Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg" alt="Adelie Penguin" height='300', width='200'></td>
             <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/South_Shetland-2016-Deception_Island%E2%80%93Chinstrap_penguin_%28Pygoscelis_antarctica%29_04.jpg" height='300' width='200' alt="Chinstrap Penguin"></td>
             <td><img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/115369831/1200" height='300' width='200'alt="Gentoo Penguin"></td>
