@@ -18,7 +18,6 @@
 
 
 ### Introduction:
-***
 
 
 Palmer Penguins is a dataset that was founded on the research by Dr. Kristen Gormen of _[Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)_ as part of the Palmer Station Long Term Ecological Research Program. The dataset contains size measurements for three penguin species observed from 2007-2009 in the Palmer Archipelago, Antarctica. 
