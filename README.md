@@ -27,10 +27,7 @@ Create a bar chart of an appropriate variable in the data set. Then create a his
 ### Introduction:
 ***
 
-There are seven variables. There are three species found on three islands that are part of the Palmer Archipelago in Antarctica. the other 4 variables are numeric and they describe the body mass, flipper length, bill length and bill depth of the penguins. I omitted 11 NAN values from the dataset to get a more effective result. 
-based on the data, there is variation among the penguins. it can be seen that their bills vary from 32.10mm to 59.50mm with an average being 43.99mm with a std dev of 5.4687. their flippers also vary in length from 172mm to 231mm with 197mm being the average flipper length and a std dev of 14.0158. the body mass varies from 2700g to 6300g with a std dev of 802.2158 and an average weight of 4207g. 
-it can be seen that females have smaller bills than according to their length and depth, along with shorter flippers. they also tend to weigh less, however they tend to have similar bill length to depth ratios. 
-
+There are seven variables. There are three species found on three islands that are part of the Palmer Archipelago in Antarctica. the other 4 variables are numeric and they describe the body mass, flipper length, bill length and bill depth of the penguins. I omitted 11 NAN values 
 
 
 Palmer Penguins is a dataset created by Dr. Kristen Gormen.   
