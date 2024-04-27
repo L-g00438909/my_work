@@ -12,7 +12,6 @@
 
 
 
-<img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" alt="penguins" width="500" height='400'/> _Artwork by @Allison_Horst_
 ***
 
 
@@ -42,8 +41,8 @@ The Palmer Penguins dataset contains data relating to size measurements for thre
         </tr>
     </thead>
     <tbody>
-        <tr>
-             </tr>
+        <tr>            
+        </tr>
         <!-- Extra row for images -->
         <tr>
             <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg/1200px-Hope_Bay-2016-Trinity_Peninsula%E2%80%93Ad%C3%A9lie_penguin_%28Pygoscelis_adeliae%29_04.jpg" alt="Adelie Penguin" height='300', width='200'></td>
