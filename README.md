@@ -102,18 +102,19 @@ Palmer Penguins is a dataset created by Dr. Kristen Gormen.
 <br><img src="flipper length vs body mass.png" height="400" width="600">
 
 ### Scatterplot of flipper length vs body mass per species:
-
+<p float="left">
 <img src="adelie flipper length vs body mass.png" width="300" height="200"> 
 <img src="gentoo flipper length vs body mass.png" width="300" height="200">
 <img src="chinstrap flipper length vs body mass.png" width="300" height="200">
+</p>
 
 
 ### Scatterplot of flipper length vs body mass per species and sex: 
-
+<p float="left">
 <img src="adelie flipper length vs body mass per sex.png" width="300" height="200">
 <img src="gentoo flipper length vs body mass per sex.png" width="300" height="200">
 <img src="chinstrap flipper length vs body mass per sex.png" width="300" height="200">
-
+</p>
 
 
 
