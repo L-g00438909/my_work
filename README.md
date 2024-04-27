@@ -12,14 +12,20 @@
 
 
 
-<img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" alt="penguins" width="500"/> _Artwork by @Allison_Horst_
+<img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" alt="penguins" width="500" height='400'/> _Artwork by @Allison_Horst_
 ***
 
 
 
 ### Background:
 
-The Palmer Penguins dataset contains data relating to size measurements for three species of penguins observed from 2007-2009 in the Palmer Archipelago, Antarctica, as part of research carried out by Dr. Kristen Gormen  '_[Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)'](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)_ in association with the Palmer Station Long Term Ecological Research Program. 
+The Palmer Penguins dataset contains data relating to size measurements for three species of penguins observed from 2007-2009 in the Palmer Archipelago, Antarctica, as part of research carried out by Dr. Kristen Gormen  '_[Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)'](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)_ in association with the Palmer Station Long Term Ecological Research Program located on Anvers Island in the Antarctic Peninsula. 
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Ant-pen_map_anvers.PNG" width='500' height='500'>
+
+<br>
+
 ***
 ### Method overview:
 
