@@ -1,7 +1,5 @@
 ## References: 
 
-###### Images:
-1. https://www.markdownguide.org/hacks/ to change image size
 
 ###### Pandas:
 Pandas is a python library used for data manipulation and analysis
@@ -11,4 +9,9 @@ Pandas is a python library used for data manipulation and analysis
 4. https://datascienceparichay.com/article/get-rows-with-nan-values-in-pandas/
 5. 
     
+
+###### Images:
+1. https://www.markdownguide.org/hacks/ to change image size via html 
+2. https://stackoverflow.com/questions/24319505/ for images to be displayed side by side via html
+
 
