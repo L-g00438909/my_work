@@ -16,21 +16,12 @@
 ***
 
 
-*Create a GitHub repository with a README.md and a .gitignore. Add a Jupyter notebook called penguins.ipynb and add a title to it.
-Find the palmerpenguins data set online and load it into your Jupyter notebook. In your notebook, give an overview of the data set and the variables it contains.
-Suggest the types of variables that should be used to model the variables in the data set in Python, explaining your rationale.
-Create a bar chart of an appropriate variable in the data set. Then create a histogram of an appropriate variable in the data set.*
-
-*Select two variables from the data set and provide an analysis of how correlated they are.*
-
 
 ### Introduction:
 ***
 
-There are seven variables. There are three species found on three islands that are part of the Palmer Archipelago in Antarctica. the other 4 variables are numeric and they describe the body mass, flipper length, bill length and bill depth of the penguins. I omitted 11 NAN values 
 
-
-Palmer Penguins is a dataset created by Dr. Kristen Gormen.   
+Palmer Penguins is a dataset that was founded on the research by Dr. Kristen Gormen of _[Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)_ as part of the Palmer Station Long Term Ecological Research Program. The dataset contains size measurements for three penguin species observed from 2007-2009 in the Palmer Archipelago, Antarctica. 
 
 
 
