@@ -83,16 +83,58 @@ Using python, the different variables were analyzed using various data structure
 ***
 
 
+## Summary Statistics:
+
+
+
+The describe() function in pandas generates descriptive statistics of the dataframe. It gives a summary of the central tendency, disperson and shape of the distribution of the dataset. 
+
+Body Mass(g):
+
+<img src="Stats.png">
+
 <br>
-<br>
+The Gentoo penguin has the largest body mass with a mean of 5092g. The Adelie penuin with a mean of 3706g and Chinstrap penguins with a mean of 3733g are smaller than Gentoo and are closer in size.  The median is athe center value of a set of numbers. The mean and the median only differs by a small amount which could be explained by outliers in the data or difference between male and female penguins. Also it is expected that there would be body mass variation between penguins due to diet and environment.    <br>
+ <br>
+The measure of dispersion from the mean is called standard deviation. when the standard deviation is low, it means that the data 
+
+
+
+
+
+
+Flipper Length(mm):
+
+<img src="statsflipper.png">
+
+Bill Length(mm):
+
+<img src="statsbilllength.png">
+
+Bill Depth(mm):
+
+<img src='statsbilldepth.png'>
+
+
+Main Observations:
+
+Gentoo largest in body mass and flipper length. 
+<br>Chinstrap largest bill depth, close to adelie bill length
+<br> Gentoo smallest bill depth 
+<br> Chinstrap longest bill length
+
+
+
 
 ## Data Visualisation:
 
+### **Barchart:**
 
+<br>
  <img src="barchart mean body mass.png" width='500' height='500'>
         
 
-<br>
+<br>The barchart shows the variations in body mass per species and islands. Each bar represents the average body mass of each species and sex of the penguins on a particular island. From observation of the barchart male penguins are larger than female penguins. Male and female Gentoo penguins show a notable difference in body mass in comparison to Adelie and Chinstrap penguins. Adelie and Chinstrap penguins are similar in size for both male and female penguins. 
 
 
 
@@ -108,9 +150,7 @@ Using python, the different variables were analyzed using various data structure
 A pairplot is used to see if there is any relationships between two variables. 
 The plots are in a matrix format where the row name represents the x-axis and column name represents the y-axis. The main diagonal subplots are the histogram distributions for each variable. 
 
-The main observations from the pairplot are that the Gentoo penguin is linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot, The relationship appears to show a positive linear correlation. As one variable increases, the other variable also increases. 
-
-<
+The main observations from the pairplot is that the Gentoo penguins are linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for Gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot there seems to be a positive linear relationship between body mass and flipper length as the data points cluster around a straight line that slopes upwards from left to right, showing a consistent relationship between the two variables with all species combined. The correlation coefficient is 0.87 indicating a strong positive linear correlation. 
 
 
 
