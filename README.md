@@ -181,9 +181,9 @@ There is a strong positive correlation between body mass and flipper length. The
 
 **Scatterplots of flipper length vs body mass per species:**
 <p float="left">
-<img src="adelie flipper length vs body mass.png" width="240" height="300"> 
-<img src="gentoo flipper length vs body mass.png" width="240" height="300">
-<img src="chinstrap flipper length vs body mass.png" width="240" height="300">
+<img src="adelie flipper length vs body mass.png" width="300" height="300"> 
+<img src="gentoo flipper length vs body mass.png" width="300" height="300">
+<img src="chinstrap flipper length vs body mass.png" width="300" height="300">
 </p>
 
 
@@ -191,9 +191,9 @@ When separated by species, the correlation coefficient values were lower than wh
 
 ### Scatterplots of flipper length vs body mass per species and sex: 
 <p float="left">
-<img src="adelie flipper length vs body mass per sex.png" width="240" height="300">
-<img src="gentoo flipper length vs body mass per sex.png" width="240" height="300">
-<img src="chinstrap flipper length vs body mass per sex.png" width="240" height="300">
+<img src="adelie flipper length vs body mass per sex.png" width="300" height="300">
+<img src="gentoo flipper length vs body mass per sex.png" width="300" height="300">
+<img src="chinstrap flipper length vs body mass per sex.png" width="300" height="300">
 </p>
 
 
