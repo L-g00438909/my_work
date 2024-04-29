@@ -79,14 +79,14 @@ Using python, the different variables were analyzed using various data structure
 
 
 
-## Analysis: 
+
 ***
 
 
 <br>
 <br>
 
-
+## Data Visualisation:
 
 
  <img src="barchart mean body mass.png" width='500' height='500'>
@@ -100,33 +100,42 @@ Using python, the different variables were analyzed using various data structure
 
 <br>
 
-### Pairplot: 
+## Correlation:
+
+#### Pairplot: 
 <br><img src="pairplot of numerical variables.png" width='600' height='600'>
 <br>
+A pairplot is used to see if there is any relationships between two variables. 
+The plots are in a matrix format where the row name represents the x-axis and column name represents the y-axis. The main diagonal subplots are the histogram distributions for each variable. 
+
+The main observations from the pairplot are that the Gentoo penguin is linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot, The relationship appears to show a positive linear correlation. As one variable increases, the other variable also increases. 
+
+<
 
 
 
-### Scatterplot of flipper length vs body mass: <br> 
+**Correlation Heatmap:**
+
+<br><img src="correlation heatmap.png" width="450" height="450">
+<br>
+<br>
+
+**Correlation Heatmap per Species:**
+<br><img src="correlation heatmap per species.png" width="500" height="500">
+
+
+**Scatterplot:**
 <br><img src="flipper length vs body mass.png" height="400" width="600">
 
 
-There is a strong positive correlation between body mass and flipper length. The correlation coefficient was calculated to be 0.87. 
+There is a strong positive correlation between body mass and flipper length. The correlation coefficient was calculated to be 0.87.
 
-### Correlation Heatmap:
-
-<br><img src="correlation heatmap.png" width="600" height="500">
-<br>
-<br>
-
-<br>**Correlation Heatmap per Species:**
-<br><img src="correlation heatmap per species.png" width="600" height="500">
-### Scatterplot of flipper length vs body mass per species:
+**Scatterplot of flipper length vs body mass per species:**
 <p float="left">
 <img src="adelie flipper length vs body mass.png" width="300" height="300"> 
 <img src="gentoo flipper length vs body mass.png" width="300" height="300">
 <img src="chinstrap flipper length vs body mass.png" width="300" height="300">
 </p>
-
 
 ### Scatterplot of flipper length vs body mass per species and sex: 
 <p float="left">
@@ -137,6 +146,7 @@ There is a strong positive correlation between body mass and flipper length. The
 
 
 
+ 
 
 
 

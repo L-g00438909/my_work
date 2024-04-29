@@ -17,3 +17,7 @@ Pandas is a python library used for data manipulation and analysis
 4. Adelie Penguin: https://en.wikipedia.org/wiki/Adelie_penguin
 5. Chinstrap Penguin: 
 6. Gentoo Penguin: https://cdn.download.ams.birds.cornell.edu/api/v1/asset/115369831/1200
+
+
+###### Graphs:
+https://seaborn.pydata.org/generated/seaborn.pairplot.html
