@@ -64,55 +64,39 @@ The Palmer Penguins dataset contains data relating to size measurements for thre
 
 <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Ant-pen_map_anvers.PNG" width='500' height='500'>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Ant-pen_map_anvers.PNG" width='400' height='400'>
 <br>
 
-### Method Overview
-#### 1.  Import libraries
+### About the dataset: 
 
-       
-Pandas
-        - Numpy
-        - Matplotlib
-        - Seaborn
+The [Palmer Penguins dataset](https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv) contains the data of 344 penguins from three species: Adelie, Chinstrap and Gentoo collected from three islands: Biscoe, Dream and Torgersen. 
+There are 7 variables. 3 of which are catergorical variables. These include species, island and sex. There are four numerical variables that represent the physical characteristics of the penguins. These include body mass(g), flipper length(mm), bill length(mm) and bill depth(mm). Each row represents a penguin, Each column represents a variable. 
 
-#### 2.  Load dataset from url
+Using python, the different variables were analyzed using various data structures and libraries such as pandas. Pandas is a python library built on top of NumPy for data manipulation and analysis. The main data structures in pandas include dataseries and dataFrames. A dataseries is a 1D array capable of holding any data type such as such as integers, floats, strings, objects. This is similar to Numpy arrays but can be used to access specific elements. A dataFrame is a 2D labelled data structure with columns of different data types, similar to a spreadsheet where each column represents a variable and each row represents an observation. In this analysis the dataset was loaded from the .csv file on the seaborn github repository into a dataFrame using pandas
 
-#### 3.  Inspect data
 
-describe the data
 
-#### 4. Summary Statistics
 
-#### 5.  Visualisation of data
-        
-Barchart
-        - Histogram
-        - Pairplot
-        - Scatterplot
-        - Heatmap
-        - 
-#### 6. Predictions
-
-#### 7. Discussion
-
-**8. Conclusion**
 
 
 ## Analysis: 
 ***
 
 
-### Barcharts:
-<p float="left">
-        <img src="barchart mean body mass.png" width='400' height='400'>
-        <img src="barchart mean flipper length.png" width='400' height='400'>
-        <img src="barchart mean bill length.png" width='400' height='400'>
-        <img src="barchart mean bill depth.png" width='400' height='400'>
-</p>
+<br>
 <br>
 
-### Histograms:
+
+
+
+ <img src="barchart mean body mass.png" width='500' height='500'>
+        
+
+<br>
+
+
+
+<img src="histogram flipper lengths.png" width='500' height='500'>
 
 <br>
 
