@@ -189,7 +189,7 @@ There is a strong positive correlation between body mass and flipper length. The
 
 When separated by species, the correlation coefficient values were lower than when all data was combined. The highest correlation coefficient is seen with Gentoo penguins at 0.71, while not as high as when all species are combined it still indicates a relatively strong positive relationship between the variables. The data points are more clustered near the line than can be seen with Adelie. Chinstrap had a correlation coefficient of 0.64 which suggests a moderately strong positive linear relationship. Adelie had the lowest correlation value at 0.46 which shows a weaker relationship between the variables than Gentoo or Chinstrap penguins. However a moderate positive relationship is stil seen. 
 
-### Scatterplots of flipper length vs body mass per species and sex: 
+**Scatterplots of flipper length vs body mass per species and sex:**
 <p float="left">
 <img src="adelie flipper length vs body mass per sex.png" width="300" height="300">
 <img src="gentoo flipper length vs body mass per sex.png" width="300" height="300">
