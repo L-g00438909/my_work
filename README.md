@@ -150,8 +150,7 @@ Gentoo largest in body mass and flipper length.
 A pairplot is used to see if there is any relationships between two variables. 
 The plots are in a matrix format where the row name represents the x-axis and column name represents the y-axis. The main diagonal subplots are the histogram distributions for each variable. 
 
-The main observations from the pairplot is that the Gentoo penguins are linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for Gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot there seems to be a positive linear relationship between body mass and flipper length as the data points cluster around a straight line that slopes upwards from left to right, showing a consistent relationship between the two variables with all species combined. The correlation coefficient is 0.87 indicating a strong positive linear correlation. 
-
+The main observations from the pairplot is that the Gentoo penguins are linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for Gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot there seems to be a positive linear relationship between body mass and flipper length as the data points cluster around a straight line that slopes upwards from left to right, showing a consistent relationship between the two variables with all species combined. The correlation coefficient is 0.87 as can be seen on the correlation heatmap below, This result indicates a strong positive linear correlation. 
 
 
 **Correlation Heatmap:**
@@ -160,33 +159,54 @@ The main observations from the pairplot is that the Gentoo penguins are linearly
 <br>
 <br>
 
+
+**Scatterplot:**
+ 
+<br><img src="flipper length vs body mass.png" height="400" width="600">
+
+
+Scatterplots are used to identify correlations between two variables.
+There is a strong positive correlation between body mass and flipper length. The correlation coefficient is 0.87 which is close to 1. The closer a value is to 1 the higher the correlation. The correlation coefficient indicates the strength and the direction of the linear relationship. A positive correlation suggests that as one variable increases the other variable tends to increase also. In this case as the body mass of the penguins increases the flipper length of the penguins also increases. The slope of the line is 50.1533 which means on average for every 1mm increase in flipper length the body mass of the penguins increases approximately 50.1533g. The slope represents the rate of change in the dependent variable (body mass) for a one unit change in the independent variable (flipper length). 
+
+
+
+
+
+
+
 **Correlation Heatmap per Species:**
 <br><img src="correlation heatmap per species.png" width="500" height="500">
 
 
-**Scatterplot:**
-<br><img src="flipper length vs body mass.png" height="400" width="600">
 
-
-There is a strong positive correlation between body mass and flipper length. The correlation coefficient was calculated to be 0.87.
-
-**Scatterplot of flipper length vs body mass per species:**
+**Scatterplots of flipper length vs body mass per species:**
 <p float="left">
-<img src="adelie flipper length vs body mass.png" width="300" height="300"> 
-<img src="gentoo flipper length vs body mass.png" width="300" height="300">
-<img src="chinstrap flipper length vs body mass.png" width="300" height="300">
-</p>
-
-### Scatterplot of flipper length vs body mass per species and sex: 
-<p float="left">
-<img src="adelie flipper length vs body mass per sex.png" width="300" height="300">
-<img src="gentoo flipper length vs body mass per sex.png" width="300" height="300">
-<img src="chinstrap flipper length vs body mass per sex.png" width="300" height="300">
+<img src="adelie flipper length vs body mass.png" width="240" height="300"> 
+<img src="gentoo flipper length vs body mass.png" width="240" height="300">
+<img src="chinstrap flipper length vs body mass.png" width="240" height="300">
 </p>
 
 
+When separated by species, the correlation coefficient values were lower than when all data was combined. The highest correlation coefficient is seen with Gentoo penguins at 0.71, while not as high as when all species are combined it still indicates a relatively strong positive relationship between the variables. The data points are more clustered near the line than can be seen with Adelie. Chinstrap had a correlation coefficient of 0.64 which suggests a moderately strong positive linear relationship. Adelie had the lowest correlation value at 0.46 which shows a weaker relationship between the variables than Gentoo or Chinstrap penguins. However a moderate positive relationship is stil seen. 
 
- 
+### Scatterplots of flipper length vs body mass per species and sex: 
+<p float="left">
+<img src="adelie flipper length vs body mass per sex.png" width="240" height="300">
+<img src="gentoo flipper length vs body mass per sex.png" width="240" height="300">
+<img src="chinstrap flipper length vs body mass per sex.png" width="240" height="300">
+</p>
+
+
+When separated based on species and sex, the correlation coefficient value was lower for penguins except Chinstrap males which gave a slightly higher correlation value of 0.66. Although the relationship is weaker between the variables a linear positive relationship is still seen.
+
+
+
+## Discussion:
+
+The result shows that is a strong positive correlation between body mass and flipper length. 
+The stronger correlation coefficient observed when not separated based on sex or species could suggest a more consistent or stronger relationship between flipper length and body mass when considering all data points regardless of species or sex. Lower correlation coefficients could be due to outliers, smaller sample sizes or variation within the subsets. Body mass naturally varies among individuals in a population due to genetics, diet, environment etc. From Dr. Gormens research the Adelie penguins foraging niche may have been affected more than Gentoo or Chinstrap penguins in the year with lower sea ice concentrations as they are sea ice obligate.  Analysing all data points together increases the sample size and may give a more accurate estimate of the overall relationship. 
+
+
 
 
 
