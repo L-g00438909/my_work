@@ -91,17 +91,18 @@ The describe() function in pandas generates descriptive statistics of the datafr
 <img src="statistics1.png">
 <img src="statistics2.png">
 
-First Observations:
+Observations:
 -   Gentoo: Largest in body mass and flipper size with smallest bill depth 
-- Adelie: Smallest in body mass (mean: 3706g) and flipper size with smallest bill length 
--   Chinstrap: Longest bill length (mean: 48.8mm) , close to Gentoo and highest bill depth, close to adelie 
+- Adelie: Smallest in body mass and flipper size with smallest bill length 
+-   Chinstrap: Longest bill length, close to Gentoo and highest bill depth, close to adelie 
 -  Didnt observe significant differences in means or standard deviations in Adelie Penguins features across the three islands. 
 -   Mean and median were close in all variables. slight difference in chinstrap and Gentoo penguins suggesting slight right skewedness.
+- Std Deviation is high but consistent across species. Standard deviation is the measure of dispersion from the mean. 
 -   Bimodal distributions for body mass of Adelie and Gentoo. Multimodal for Chinstrap penguins. 
--   Bimodal distribution for Chinstrap flipper length. Multimodal for Gentoo bill length. 
-- Bill depth: unimodal
-- Std Deviation is high but consistent across species. Standard deviation is the measure of dispersion but from the mean. 
-. 
+-   Bimodal distribution for Chinstrap flipper length. Multimodal for Gentoo bill length. Bill depth: unimodal for all species
+
+
+
 
 
 <br>
@@ -117,7 +118,7 @@ First Observations:
 <br>The barchart shows the variations in body mass per species and islands. Each bar represents the average body mass of each species and sex of the penguins on a particular island. From observation of the barchart male penguins are larger than female penguins. Male and female Gentoo penguins show a notable difference in body mass in comparison to Adelie and Chinstrap penguins. Adelie and Chinstrap penguins are similar in size for both male and female penguins.No significant difference noted for body mass per island for Adelie penguins. Adelie is present on all three islands whereas as Chinstrap is present on Dream Island and Gentoo on Biscoe. 
 
 
-### **Histogram:
+### Histogram:
 
 
 <img src="histogram.png" width='500' height='500'>
@@ -128,15 +129,15 @@ Histograms show the distribution of numerical data by grouping datapoints that l
 
 
 
-## **Correlation:**
+## [**Correlation:**](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 
 ### Pairplot: 
 <br><img src="pairplot.png" width='600' height='600'>
 <br>
 A pairplot is used to see if there is any relationships between two variables. 
-The plots are in a matrix format where the row name represents the x-axis and column name represents the y-axis. The main diagonal subplots are the histogram distributions for each variable. 
+The plots are in a scatterplot matrix format where the row name represents the x-axis and column name represents the y-axis. The main diagonal subplots are the histogram distributions for each variable. 
 
-The main observations from the pairplot is that the Gentoo penguins are linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for Gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot there seems to be a positive linear relationship between body mass and flipper length as the data points cluster around a straight line that slopes upwards from left to right, showing a consistent relationship between the two variables with all species combined. The correlation coefficient is 0.87 as can be seen on the correlation heatmap below, This result indicates a strong positive linear correlation. The most interesting relationships to study further would be body mass vs flipper length due to the strong correlation between the variables and bill length vs bill depth as they show the least overlap between the variables. 
+The main observations from the pairplot is that the Gentoo penguins are linearly separated from the Adelie and Chinstrap penguins in body mass vs bill depth and flipper length vs bill depth. The Adelie and Chinstrap appear more clustered together in most plots. The plot which appears to have the least amount of overlap between the three species combined is bill length vs bill depth.  There is a minimal amount of overlap seen for Gentoo penguins in flipper length and body mass with Adelie and Chinstrap but Gentoo can still be seen to form a clear cluster and have a good degree of separation. From the pairplot there seems to be a positive linear relationship between body mass and flipper length as the data points cluster around a straight line that slopes upwards from left to right, showing a consistent relationship between the two variables with all species combined. The correlation coefficient is 0.87 as can be seen on the correlation heatmap below, This result indicates a strong positive linear correlation. The most interesting relationships to study further would be body mass vs flipper length due to the strong correlation between the variables and bill length vs bill depth as they show the least overlap between the species. 
 
 
 ### Correlation Heatmap:
