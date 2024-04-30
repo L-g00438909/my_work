@@ -118,13 +118,16 @@ The measure of dispersion from the mean is called standard deviation. when the s
 ### Barchart:
 
 <br>
- <img src="barchart2.png" width='500' height='500'>
+ <img src="barchart.png" width='500' height='500'>
         
 
 <br>The barchart shows the variations in body mass per species and islands. Each bar represents the average body mass of each species and sex of the penguins on a particular island. From observation of the barchart male penguins are larger than female penguins. Male and female Gentoo penguins show a notable difference in body mass in comparison to Adelie and Chinstrap penguins. Adelie and Chinstrap penguins are similar in size for both male and female penguins.No significant difference noted for body mass per island for Adelie penguins. Adelie is present on all three islands whereas as Chinstrap is present on Dream Island and Gentoo on Biscoe. 
 
 
-<img src="histogram flipper lengths.png" width='500' height='500'>
+### **Histogram:
+
+
+<img src="histogram.png" width='500' height='500'>
 
 <br>
 
@@ -135,7 +138,7 @@ Histograms show the distribution of numerical data by grouping datapoints that l
 ## **Correlation:**
 
 ### Pairplot: 
-<br><img src="pairplot of numerical variables.png" width='600' height='600'>
+<br><img src="pairplot.png" width='600' height='600'>
 <br>
 A pairplot is used to see if there is any relationships between two variables. 
 The plots are in a matrix format where the row name represents the x-axis and column name represents the y-axis. The main diagonal subplots are the histogram distributions for each variable. 
@@ -152,7 +155,9 @@ The main observations from the pairplot is that the Gentoo penguins are linearly
 
 ### Scatterplot:
  
-<br><img src="flipper length vs body mass.png" height="400" width="600">
+<br>
+
+<img src="scatterplot1.png" height="400" width="600">
 
 
 Scatterplots are used to identify correlations between two variables.
@@ -169,17 +174,18 @@ There is a strong positive correlation between body mass and flipper length. The
 
 
 ### Scatterplot of flipper length vs body mass per species:
-<p float="left">
-<img src="scatterflipperlenvsbodymass.png" width="500" height="500"> 
-</p>
+
+
+<img src="scatterplot2.png" width="500" height="500"> 
+
 
 When separated by species, the correlation coefficient values were lower than when all data was combined. The highest correlation coefficient is seen with Gentoo penguins at 0.71, while not as high as when all species are combined it still indicates a relatively strong positive relationship between the variables. There is significant overlap between Adelie and Chinstrap penguins while Gentoo is both larger in body mass and flipper length and forms a distinct cluster. Chinstrap had a correlation coefficient of 0.64 which suggests a moderately strong positive linear relationship. Adelie had the lowest correlation value at 0.46 which shows a weaker relationship between the variables than Gentoo or Chinstrap penguins. However a moderate positive relationship is still seen. 
 
 ### Scatterplots of flipper length vs body mass per species and sex:
 <p float="left">
-<img src="adelie flipper length vs body mass per sex.png" width="300" height="300">
-<img src="gentoo flipper length vs body mass per sex.png" width="300" height="300">
-<img src="chinstrap flipper length vs body mass per sex.png" width="300" height="300">
+<img src="scatterplot3.png" width="300" height="300">
+<img src="scatterplot4.png" width="300" height="300">
+<img src="scatterplot5.png" width="300" height="300">
 </p>
 
 
@@ -189,6 +195,19 @@ When separated based on species and sex, the correlation coefficient value was l
 ### Discussion:
 
 The result shows that there is a strong positive correlation between body mass and flipper length. As body mass increases, flipper lengths tend to increase also. 
-The stronger correlation coefficient observed when not separated based on sex or species could suggest a more consistent or stronger relationship between flipper length and body mass when considering all data points regardless of species or sex. Lower correlation coefficients could be due to outliers, smaller sample sizes or variation within the subsets. Analysing all data points together increases the sample size and may give a more accurate estimate of the overall relationship. Body mass naturally varies among individuals in a population due to genetics, diet, environment etc. From Dr. Gormens research the Adelie penguins foraging niche may have been affected more than Gentoo or Chinstrap penguins in the year with lower sea ice concentrations as they are sea ice obligate.
-While the penguins each have specific features that can identify their species, determining the gender of the penguin requires genetic testing via blood samples. Measurements such as, body mass, bill and flipper lengths would be less time consuming with lesser costs associated.  From the research by Dr. Gormen bill depth and body mass were the best predictors for sex for Gentoo penguins. Body mass and bill length best predictors of sex for Adelie penguins, while bill length and depth were strong predictors of sex for chinstrap penguins. The penguins were studied at the start of the nesting period so results can only be relevant for then. Flipper length was not a strong predictor of sex for any of the three species which could mean it is less under sexual selection compared to body mass, bill length and depth. Due to body mass varation throughout the yearly cycle, bill length and depth may be the most promising features of the penguin for identification of gender. 
+The stronger correlation coefficient observed when not separated based on sex or species could suggest a more consistent or stronger relationship between flipper length and body mass when considering all data points regardless of species or sex. Lower correlation coefficients could be due to outliers, smaller sample sizes or variation within the subsets. Analysing all data points together increases the sample size and may give a more accurate estimate of the overall relationship. Body mass naturally varies among individuals in a population due to genetics, diet, environment etc. From Dr. Gormens research the Adelie penguins foraging niche may have been affected more than Gentoo or Chinstrap penguins in the year with lower sea ice concentrations as they are sea ice obligate.    
+While the penguins each have specific features that can identify their species, determining the gender of the penguin requires genetic testing via blood samples. Measurements such as, body mass, bill and flipper lengths would be less time consuming with lesser costs associated.  From the research by Dr. Gormen bill depth and body mass were the best predictors for sex for Gentoo penguins. Body mass and bill length best predictors of sex for Adelie penguins, while bill length and depth were strong predictors of sex for chinstrap penguins. The penguins were studied at the start of the nesting period so results can only be relevant for then. Flipper length was not a strong predictor of sex for any of the three species which could mean it is less under sexual selection compared to body mass, bill length and depth. Due to body mass varation throughout the yearly cycle, Bill length and depth may be the most promising features of the penguin for identification of gender. 
+
+
+
+
+
+
+
+### References:
+***
+
+1. Horst A, Gormen K, _Palmer Archipelago Penguins Data in the palmerpenguins R Package - An Alternative to Anderson’s Irises._ https://allisonhorst.github.io/penguins_paper_distill/rjarticle/penguins.html
+
+2. Gormen, K, 2014_Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins(Genus Pygoscelis)(https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090081)
 
