@@ -87,28 +87,21 @@ Using python, the different variables were analyzed using various data structure
 
 The describe() function in pandas generates descriptive statistics of the dataframe. It gives a summary of the central tendency, disperson and shape of the distribution of the dataset. 
 
-#### Main Observations:
--   Gentoo:
-Largest in body mass (mean: 5092g) and flipper size  (mean: 217mm) with smallest bill depth (mean: 14.9mm)
-- Adelie: Smallest in body mass (mean: 3706g) and flipper size (mean: 190mm) with smallest bill length (mean: 38.8mm)
--   Chinstrap: Longest bill length (mean: 48.8mm) , close to Gentoo (mean: 47.56mm) and highest bill depth(mean: 18.42mm), close to adelie (Mean: 18.34)
--  Don’t observe significant differences in means or standard deviations in Adelie Penguins features across the three islands. 
 
-Bimodal and multimodal distributions observed for body mass of Adelie, Chinstrap and Gentoo.
-Bimodal distribution observed for Chinstrap flipper length. 
-Bimodal distribution observed for CHinstrap bill length and multimodal for Gentoo bill length. 
-bill depth: unimodal
+<img src="statistics1.png">
+<img src="statistics2.png">
 
-
-The measure of dispersion from the mean is called standard deviation. when the standard deviation is low, it means that the data 
-
-
-
-
-
-
-
-
+First Observations:
+-   Gentoo: Largest in body mass and flipper size with smallest bill depth 
+- Adelie: Smallest in body mass (mean: 3706g) and flipper size with smallest bill length 
+-   Chinstrap: Longest bill length (mean: 48.8mm) , close to Gentoo and highest bill depth, close to adelie 
+-  Didnt observe significant differences in means or standard deviations in Adelie Penguins features across the three islands. 
+-   Mean and median were close in all variables. slight difference in chinstrap and Gentoo penguins suggesting slight right skewedness.
+-   Bimodal distributions for body mass of Adelie and Gentoo. Multimodal for Chinstrap penguins. 
+-   Bimodal distribution for Chinstrap flipper length. Multimodal for Gentoo bill length. 
+- Bill depth: unimodal
+- Std Deviation is high but consistent across species. Standard deviation is the measure of dispersion but from the mean. 
+. 
 
 
 <br>
@@ -196,7 +189,7 @@ When separated based on species and sex, the correlation coefficient value was l
 
 The result shows that there is a strong positive correlation between body mass and flipper length. As body mass increases, flipper lengths tend to increase also. 
 The stronger correlation coefficient observed when not separated based on sex or species could suggest a more consistent or stronger relationship between flipper length and body mass when considering all data points regardless of species or sex. Lower correlation coefficients could be due to outliers, smaller sample sizes or variation within the subsets. Analysing all data points together increases the sample size and may give a more accurate estimate of the overall relationship. Body mass naturally varies among individuals in a population due to genetics, diet, environment etc. From Dr. Gormens research the Adelie penguins foraging niche may have been affected more than Gentoo or Chinstrap penguins in the year with lower sea ice concentrations as they are sea ice obligate.    
-While the penguins each have specific features that can identify their species, determining the gender of the penguin requires genetic testing via blood samples. Measurements such as, body mass, bill and flipper lengths would be less time consuming with lesser costs associated.  From the research by Dr. Gormen bill depth and body mass were the best predictors for sex for Gentoo penguins. Body mass and bill length best predictors of sex for Adelie penguins, while bill length and depth were strong predictors of sex for chinstrap penguins. The penguins were studied at the start of the nesting period so results can only be relevant for then. Flipper length was not a strong predictor of sex for any of the three species which could mean it is less under sexual selection compared to body mass, bill length and depth. Due to body mass varation throughout the yearly cycle, Bill length and depth may be the most promising features of the penguin for identification of gender. 
+While the penguins each have specific features that can identify their species, determining the gender of the penguin requires genetic testing via blood samples. Measurements such as, body mass, bill and flipper lengths would be less time consuming with lesser costs associated.  From the research by Dr. Gormen bill depth and body mass were the best predictors of sex for Gentoo penguins. Body mass and bill length best predictors of sex for Adelie penguins, while bill length and depth were strong predictors of sex for chinstrap penguins. The penguins were studied at the start of the nesting period so results can only be relevant for then. Flipper length was not a strong predictor of sex for any of the three species which could mean it is less under sexual selection compared to body mass, bill length and depth. Due to body mass varation throughout the yearly cycle, Bill length and depth may be the most promising features of the penguin for identification of gender. 
 
 
 
