@@ -96,7 +96,7 @@ Observations:
 - Adelie: Smallest in body mass and flipper size with smallest bill length 
 -   Chinstrap: Longest bill length, close to Gentoo and highest bill depth, close to adelie 
 -  Didnt observe significant differences in means or standard deviations in Adelie Penguins features across the three islands. 
--   Mean and median were close in all variables. slight difference in chinstrap and Gentoo penguins suggesting slight right skewedness.
+-   Mean and median were close in all variables. slight difference in body mass for chinstrap and Gentoo penguins suggesting slight right skewedness.
 - Std Deviation is high but consistent across species. Standard deviation is the measure of dispersion from the mean. 
 -   Bimodal distributions for body mass of Adelie and Gentoo. Multimodal for Chinstrap penguins. 
 -   Bimodal distribution for Chinstrap flipper length. Multimodal for Gentoo bill length. Bill depth: unimodal for all species
