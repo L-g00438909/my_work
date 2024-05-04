@@ -115,7 +115,10 @@ Observations:
  <img src="barchart.png" width='500' height='500'>
         
 
-<br>The barchart shows the variations in body mass per species and islands. Each bar represents the average body mass of each species and sex of the penguins on a particular island. From observation of the barchart male penguins are larger than female penguins. Male and female Gentoo penguins show a notable difference in body mass in comparison to Adelie and Chinstrap penguins. Adelie and Chinstrap penguins are similar in size for both male and female penguins.No significant difference noted for body mass per island for Adelie penguins. Adelie is present on all three islands whereas Chinstrap is present on Dream Island and Gentoo on Biscoe. 
+<br> 
+The bar chart is used to summarise the dataset graphically. The categorical data of species, sex and island is represented in relation to the body mass of the penguins to get a visual summary of any notable differences. 
+ From observation of the barchart male penguins are larger than female penguins. Male and female Gentoo penguins show a notable difference in body mass in comparison to Adelie and Chinstrap penguins. Adelie and Chinstrap penguins are similar in size for both male and female penguins.No significant difference noted for body mass per island for Adelie penguins. Adelie is present on all three islands whereas Chinstrap is present on Dream Island and Gentoo on Biscoe. 
+
 
 
 ### Histogram:
